@@ -7,7 +7,7 @@ import maxflow
 
 BINS = 16
 SIGMA_HIST = 1.0
-LAMBDA = 1.0
+LAMBDA = 20.0
 
 def suavizar_hist(hist, sigma):
     r = int(3 * sigma + 0.5)
